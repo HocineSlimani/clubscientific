@@ -34,17 +34,14 @@ body {
 }
 .text-maintenance{
     display: flex;
-    text-align: center;
+    text-align: justify;
     justify-content: center;
-    font-size: 1.5vw;
+    font-size: 16px;
     margin: auto;
     
 }
 .text-maintenance p{
     width: 60%;
-}
-.text-maintenance p span{
-    margin-left: 40px;
 }
 .fix img{
     height: 80px; 
@@ -136,8 +133,17 @@ position: fixed;
 z-index: -1;
 }
 video::-webkit-media-controls-start-playback-button {
-    display: none;
+    display: none !important;
 }
+*::-webkit-media-controls-panel {
+    display: none!important;
+    -webkit-appearance: none;
+  }
+  
+  *::-webkit-media-controls-play-button {
+    display: none!important;
+    -webkit-appearance: none;
+  }
 @media screen and (max-width: 900px ){
     .tat{
         width: 100%;
