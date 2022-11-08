@@ -132,7 +132,9 @@ top: 0;
 position: fixed;
 z-index: -1;
 }
-
+video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
 @media screen and (max-width: 900px ){
     .tat{
         width: 100%;
