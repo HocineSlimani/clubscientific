@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Raleway&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #003451;
+  color: #fff;
+  overflow-x: hidden;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.logo img{
+    height:280px ;
+    width: 280px;
+}
+.maintin, .fix{
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
+.text-maintenance{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    margin: auto;
+    
+}
+.text-maintenance p{
+    width: 60%;
+}
+.text-maintenance p span{
+    margin-left: 40px;
+}
+.fix img{
+    height: 80px; 
+}
+.titre{
+    display: flex;
+    gap: 0.8rem;
+    width: 70%;
+}
+
+.tatly{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.tat{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 5vw
+}
+
+.titre div{
+    display: flex;
+    align-items: center;
+}
+.titre div img{
+    height: 45px;
+}
+.sing{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 15px;
+    border-bottom: solid ;
+    height: 60px;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .stop{
+    flex: 2 10% ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+.icon img{
+    height: 43px;
+}
+.star{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+.stop img{
+    height: 40px;
+    
+}
+.container-maintenance{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#bckc{
+    width: 100vw;
+height: 100vh;
+object-fit: cover;
+top: 0;
+position: fixed;
+z-index: -1;
+}
+
+@media screen and (max-width: 900px ){
+    .tat{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .titre{
+        width: 90%;  
+    }
+    .container-maintenance{
+        justify-content: center;
+        align-items: center;
+    }
+    .text-maintenance p{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+}
